@@ -15,10 +15,10 @@
 */
 #include <stdio.h>
 int main() {
-    float Days = 0,seconds = 0  ;
+    int Days = 0,seconds = 0  ;
     printf("Enter you Days: ");
-    scanf("%f",&Days ) ;
+    scanf("%d",&Days ) ;
     seconds = Days * 86400 ;
-    printf("%f days = %f seconds.\n", Days, seconds) ;
+    printf("%d days = %d seconds.\n ", Days, seconds) ;
     return 0 ;
 }
